@@ -1,4 +1,4 @@
-from lcsq import solve
+from rear import solve
 
 if __name__ == '__main__':
     solve()
