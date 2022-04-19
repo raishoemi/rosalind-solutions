@@ -1,4 +1,4 @@
-from motz import solve
+from nwck import solve
 
 if __name__ == '__main__':
     solve()
