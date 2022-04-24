@@ -8,3 +8,6 @@ def get_uniprot_sequence(protein_id: str) -> str:
     url = 'https://www.uniprot.org/uniprot/' + protein_id + '.fasta'
     response = requests.get(url)
     return ''.join(response.text.split('\n')[1:])
+
+def parse_set(s: str) -> set:
+    return set(s.strip()[1:-1].strip().replace(' ','').split(','))

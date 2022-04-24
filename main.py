@@ -1,4 +1,4 @@
-from scsp import solve
+from seto import solve
 
 if __name__ == '__main__':
     solve()
