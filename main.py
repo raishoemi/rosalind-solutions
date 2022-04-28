@@ -1,4 +1,4 @@
-from conv import solve
+from ctbl import solve
 
 if __name__ == '__main__':
     solve()
