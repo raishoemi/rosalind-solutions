@@ -1,4 +1,4 @@
-from ctbl import solve
+from dbru import solve
 
 if __name__ == '__main__':
     solve()
